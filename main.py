@@ -63,3 +63,6 @@ admin.add_user(user1)
 admin.add_user(user2)
 admin.add_user(user3)
 admin.remove_user(user3)
+
+for obj in user_list:
+    print(obj._name)
